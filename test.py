@@ -5,3 +5,5 @@ camera = PiCamera()
 
 # start taking picture
 camera.start_preview()
+
+# test
