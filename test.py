@@ -7,3 +7,4 @@ camera = PiCamera()
 camera.start_preview()
 
 # test
+print("this is a test file")
