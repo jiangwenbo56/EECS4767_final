@@ -35,7 +35,7 @@ while True:
     EN1.ChangeDutyCycle(0)
     EN2.ChangeDutyCycle(0)
 
-    sleep(5)
+    sleep(3)
      
     for x in range(40, 90):
         print ("BACKWARD MOTION")
@@ -54,6 +54,6 @@ while True:
     EN1.ChangeDutyCycle(0)
     EN2.ChangeDutyCycle(0)
 
-    sleep(5)
+    sleep(3)
 
 GPIO.cleanup()
