@@ -12,7 +12,7 @@ for x in Motor1:
     GPIO.setup(Motor2[x], GPIO.OUT)
 
 EN1 = GPIO.PWM(Motor1['EN'], 100)    
-EN2 = GPIO.PWM(Motor2['EN'], 150)
+EN2 = GPIO.PWM(Motor2['EN'], 200)
 
 EN1.start(0)                    
 EN2.start(0)                    
