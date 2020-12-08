@@ -18,7 +18,7 @@ EN1.start(0)
 EN2.start(0)                    
 
 while True:
-    for x in range(40, 90):
+    for x in range(40, 70):
         print ("FORWARD MOTION")
         EN1.ChangeDutyCycle(x)
         EN2.ChangeDutyCycle(x)
@@ -37,7 +37,7 @@ while True:
 
     sleep(3)
      
-    for x in range(40, 90):
+    for x in range(40, 70):
         print ("BACKWARD MOTION")
         EN1.ChangeDutyCycle(x)
         EN2.ChangeDutyCycle(x)
