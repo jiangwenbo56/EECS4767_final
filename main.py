@@ -6,7 +6,8 @@ from socket import *
 camera = PiCamera()
 
 # set the camera to the max resolution
-camera.resolution = (2592, 1944)
+# camera.resolution = (2592, 1944)
+camera.resolution = (2592, 1700)
 camera.framerate = 15
 
 # start taking picture
