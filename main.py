@@ -20,7 +20,7 @@ image = open('bulb.png', 'rb')
 
 
 severName = '54.83.98.170'
-serverPort = 4735
+serverPort = 4736
 clientsocket = socket(AF_INET, SOCK_STREAM)
 clientsocket.connect((severName, serverPort))
 temp = "end of image".encode()
