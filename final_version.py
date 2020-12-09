@@ -65,7 +65,7 @@ while True:
         if result:
             EN1.start(0)
 
-            for x in range(40, 60):
+            for x in range(40, 90):
                 print("FORWARD MOTION")
                 EN1.ChangeDutyCycle(x)
 
