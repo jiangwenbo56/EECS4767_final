@@ -7,7 +7,7 @@ camera = PiCamera()
 
 # set the camera to the max resolution
 # camera.resolution = (2592, 1944)
-camera.resolution = (2592, 800)
+camera.resolution = (2592, 900)
 camera.framerate = 15
 
 # start taking picture
@@ -22,7 +22,7 @@ image = open('image.jpg', 'rb')
 
 
 severName = '54.83.98.170'
-serverPort = 4736
+serverPort = 4745
 clientsocket = socket(AF_INET, SOCK_STREAM)
 clientsocket.connect((severName, serverPort))
 temp = "end of image".encode()
