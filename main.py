@@ -16,7 +16,8 @@ camera.capture('image.jpg')
 camera.stop_preview()
 
 # Loads the image into memory
-image = open('bulb.png', 'rb')
+# image = open('bulb.png', 'rb')
+image = open('image.jpg', 'rb')
 
 
 severName = '54.83.98.170'
