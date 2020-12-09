@@ -7,7 +7,7 @@ camera = PiCamera()
 
 # set the camera to the max resolution
 # camera.resolution = (2592, 1944)
-camera.resolution = (1300, 600)
+camera.resolution = (1500, 800)
 camera.framerate = 15
 
 # start taking picture
