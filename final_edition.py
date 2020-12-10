@@ -69,8 +69,8 @@ while True:
         clientsocket.send(temp)
 
         # receive the result from the cloud
-        result = clientsocket.recv(4096)
-        print(result.decode())
+        result = clientsocket.recv(4096).decode()
+        print(result)
 
         # Analyze the result
         if result:
