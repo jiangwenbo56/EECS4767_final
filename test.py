@@ -1,10 +1,15 @@
-from picamera import PiCamera
+# from picamera import PiCamera
+#
+# # create camera object
+# camera = PiCamera()
+#
+# # start taking picture
+# camera.start_preview()
+#
+# # test
+# print("this is a test file")
 
-# create camera object
-camera = PiCamera()
 
-# start taking picture
-camera.start_preview()
+a = ["a", "b", "c"]
 
-# test
-print("this is a test file")
+print(a.index("c"))
